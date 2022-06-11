@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Caique Freitas/AndroidStudioProjects/waytomars/app/src/main/res/layout/activity_main.xml" value="0.33181357649442755" />
+        <entry key="..\:/Users/Caique Freitas/AndroidStudioProjects/waytomars/app/src/main/res/layout/fragment_comprar.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/Caique Freitas/AndroidStudioProjects/waytomars/app/src/main/res/layout/fragment_confirmado.xml" value="0.3984375" />
+        <entry key="..\:/Users/Caique Freitas/AndroidStudioProjects/waytomars/app/src/main/res/layout/fragment_home.xml" value="0.33865248226950356" />
+        <entry key="..\:/Users/Caique Freitas/AndroidStudioProjects/waytomars/app/src/main/res/layout/fragment_infos.xml" value="0.264" />
+        <entry key="..\:/Users/Caique Freitas/AndroidStudioProjects/waytomars/app/src/main/res/layout/fragment_marte.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

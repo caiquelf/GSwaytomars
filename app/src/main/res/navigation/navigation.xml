@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gs.waytomars.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_infosFragment"
+            app:destination="@id/infosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comprarFragment"
+        android:name="com.gs.waytomars.ComprarFragment"
+        android:label="ComprarFragment" >
+        <action
+            android:id="@+id/action_comprarFragment_to_confirmadoFragment"
+            app:destination="@id/confirmadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/marteFragment"
+        android:name="com.gs.waytomars.MarteFragment"
+        android:label="MarteFragment" />
+    <fragment
+        android:id="@+id/confirmadoFragment"
+        android:name="com.gs.waytomars.ConfirmadoFragment"
+        android:label="ConfirmadoFragment" >
+        <action
+            android:id="@+id/action_confirmadoFragment_to_marteFragment"
+            app:destination="@id/marteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infosFragment"
+        android:name="com.gs.waytomars.InfosFragment"
+        android:label="InfosFragment" >
+        <action
+            android:id="@+id/action_infosFragment_to_marteFragment"
+            app:destination="@id/marteFragment" />
+        <action
+            android:id="@+id/action_infosFragment_to_comprarFragment"
+            app:destination="@id/comprarFragment" />
+    </fragment>
+</navigation>
